@@ -1,3 +1,4 @@
+{
 "Post": {
     "cover": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
@@ -30,4 +31,5 @@
         "max": "2020-12-31T23:59:59Z"
       }
     }
+  }
   }
