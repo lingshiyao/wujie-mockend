@@ -1,5 +1,5 @@
 {
-"Post": {
+	"Post": {
     "cover": {
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
@@ -31,5 +31,51 @@
         "max": "2020-12-31T23:59:59Z"
       }
     }
+  },
+  "Test": {
+	"title": { "string": {} },
+	"likes": { "int": { "min": 0, "max": 1000000 } },
+	"isPublished": { "boolean": {} },
+	"createdAt": {
+		"dateTime": {
+			"min": "2010-01-01T00:00:00Z",
+			"max": "2020-12-31T23:59:59Z"
+		}
+	}
+	"name": { "regexp": "[A-Z][a-z]{5,10}" },
+	"tag": { "loremWord": {}},
+	"title1": {"loremWords": { "minLength": 5, "maxLength": 20 }},
+	"longDescription": {"loremSentences": { "minLength": 100, "maxLength": 200 }},
+	"text": {"loremParagraphs": { "minLength": 200, "maxLength": 500 }},
+	"name2": {"string": ["Thor","Loki"]},
+	"code": {"int": [100,200,300]},
+	"avatar": {"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"},
+	"photo": {"regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"},
+	"firstName": { "regexp": "[A-Z][a-z]{5,10}" } },
+	"email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
+	"color": { "regexp": "#[0-9A-F]{6}" },
+	"node": {
+		"title999": { "string": {} },
+		"likes999": { "int": { "min": 0, "max": 1000000 } },
+		"isPublished999": { "boolean": {} },
+		"createdAt999": {
+			"dateTime": {
+				"min": "2010-01-01T00:00:00Z",
+				"max": "2020-12-31T23:59:59Z"
+			}
+		}
+		"name999": { "regexp": "[A-Z][a-z]{5,10}" },
+		"tag999": { "loremWord": {}},
+		"title1999": {"loremWords": { "minLength": 5, "maxLength": 20 }},
+		"longDescription999": {"loremSentences": { "minLength": 100, "maxLength": 200 }},
+		"text999": {"loremParagraphs": { "minLength": 200, "maxLength": 500 }},
+		"name2999": {"string": ["Thor","Loki"]},
+		"code999": {"int": [100,200,300]},
+		"avatar999": {"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"},
+		"photo999": {"regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"},
+		"firstName999": { "regexp": "[A-Z][a-z]{5,10}" } },
+		"email999": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
+		"color999": { "regexp": "#[0-9A-F]{6}" },
+	}
   }
-  }
+}
