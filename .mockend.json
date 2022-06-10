@@ -1,6 +1,5 @@
 {
   "Post": {
-	"name": "lingshiyao",
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
@@ -11,8 +10,12 @@
     "post": {
       "belongsTo": "Post"
     }
-  },
-  "lsy": {
-	"name": "lingshiyao"
+  },  
+  "ModelName": {
+    "fieldName": {
+      "<type>": {} | [],
+      "hasMany": "Model",
+      "belongsTo": "Model"
+    }
   }
 }
