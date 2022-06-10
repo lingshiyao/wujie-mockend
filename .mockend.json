@@ -41,7 +41,7 @@
 			"min": "2010-01-01T00:00:00Z",
 			"max": "2020-12-31T23:59:59Z"
 		}
-	}
+	},
 	"name": { "regexp": "[A-Z][a-z]{5,10}" },
 	"tag": { "loremWord": {}},
 	"title1": {"loremWords": { "minLength": 5, "maxLength": 20 }},
@@ -51,7 +51,7 @@
 	"code": {"int": [100,200,300]},
 	"avatar": {"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"},
 	"photo": {"regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"},
-	"firstName": { "regexp": "[A-Z][a-z]{5,10}" } },
+	"firstName": { "regexp": "[A-Z][a-z]{5,10}" },
 	"email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
 	"color": { "regexp": "#[0-9A-F]{6}" },
 	"node": {
@@ -63,7 +63,7 @@
 				"min": "2010-01-01T00:00:00Z",
 				"max": "2020-12-31T23:59:59Z"
 			}
-		}
+		},
 		"name999": { "regexp": "[A-Z][a-z]{5,10}" },
 		"tag999": { "loremWord": {}},
 		"title1999": {"loremWords": { "minLength": 5, "maxLength": 20 }},
