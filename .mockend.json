@@ -1,10 +1,58 @@
 {
   "User": {
-	"name": {
-    "string": [
-      "Thor",
-      "Loki"
-    ]
+    "phoneNumber": {
+      "string": [
+        "13971080418",
+        "17671434110",
+        "15927555961",
+        "15623846610",
+        "18701470596",
+        "13000000000",
+        "13333333333",
+        "18163316516",
+        "15555555555",
+        "18701570596"
+      ]
+    },
+    "signupAt": {
+      "dateTime": {
+        "min": "2022-01-01T00:00:00Z",
+        "max": "2022-12-31T23:59:59Z"
+      }
+    },
+    "lastLoginAt": {
+      "dateTime": {
+        "min": "2022-01-01T00:00:00Z",
+        "max": "2022-12-31T23:59:59Z"
+      }
+    },
+    "txState": {
+      "string": [
+        "NONE",
+        "PENDING",
+        "SUCCESS",
+        "FAILED",
+        "ABANDON"
+      ]
+    },
+    "role": {
+      "string": [
+        "SUPER_ADMIN",
+        "ADMIN",
+        "USER"
+      ]
+    },
+    "banned": {
+      "boolean": {}
+    },
+    "nickname": {
+      "loremWord": {}
+    },
+    "points": {
+      "int": { "min": 0, "max": 10000 }
+    },
+    "address": {
+      "string": {}
+    }
   }
- }
 }
