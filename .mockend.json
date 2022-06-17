@@ -1,7 +1,10 @@
 {
-  "Test": {
-	"title": { "string": {} },
-	"likes": { "int": { "min": 0, "max": 1000000 } },
-	"isPublished": { "boolean": {} }
+  "User": {
+	"name": {
+    "string": [
+      "Thor",
+      "Loki"
+    ]
+  }
  }
 }
